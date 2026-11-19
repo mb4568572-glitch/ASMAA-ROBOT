@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ASMAA ❤️</title>
+<style>
+*{box-sizing:border-box}
+body{
+margin:0;min-height:100vh;
+font-family:Arial,sans-serif;
+background:linear-gradient(135deg,#26051d,#8d174e,#ed739b);
+color:white;text-align:center;
+display:flex;align-items:center;justify-content:center;
+padding:20px
+}
+.card{
+width:100%;max-width:420px;
+background:#ffffff18;
+border:1px solid #ffffff55;
+border-radius:25px;padding:28px 20px;
+box-shadow:0 10px 35px #0005
+}
+h1{font-size:35px;margin:10px}
+.heart{font-size:55px}
+p{font-size:19px;line-height:1.9}
+button{
+border:0;border-radius:25px;padding:13px 25px;
+background:#fff;color:#8d174e;
+font-size:17px;font-weight:bold;margin:8px;
+cursor:pointer
+}
+#reply{min-height:55px;margin-top:15px}
+</style>
+</head>
+<body>
+<div class="card">
+<div class="heart">❤️</div>
+<h1>ASMAA</h1>
+<p>أهلاً يا أسماء، يا أجمل إنسانة تستحق كل الشكر والتقدير.</p>
+<p>وجودك له قيمة كبيرة، وابتسامتك تستحق كل الفرح. شكراً لأنك إنسانة مميزة وغالية.</p>
+<button onclick="talk()">اضغطي هنا ❤️</button>
+<div id="reply"></div>
+</div>
+<script>
+function talk(){
+document.getElementById("reply").innerText=
+"أنتِ إنسانة جميلة وغالية، وأتمنى لكِ السعادة والفرح دائماً ❤️";
+}
+</script>
+</body>
+</html>
